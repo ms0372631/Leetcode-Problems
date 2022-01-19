@@ -1,5 +1,4 @@
- unordered_map<char, int> m;
-        
+ unordered_map<char, int> m;      
         for (int i = 0; i < order.size(); ++i) {
             m[order[i]] = i;
         }

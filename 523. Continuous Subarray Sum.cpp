@@ -9,4 +9,5 @@ for (int i = 0; i < nums.size(); ++i)
   s.insert(pre);
   pre = sum % k;
 }
+
 return false;

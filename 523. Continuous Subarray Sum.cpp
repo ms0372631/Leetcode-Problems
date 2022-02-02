@@ -7,6 +7,7 @@ for (int i = 0; i < nums.size(); ++i) {
     return true;
   s.insert(pre);
   pre = sum % k;
+  
 }
 
 return false;

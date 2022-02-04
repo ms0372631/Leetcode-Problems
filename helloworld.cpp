@@ -17,6 +17,7 @@ int main() {
     public:
 
       create() {
+        
       }
 
       string append(string word) {

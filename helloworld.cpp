@@ -104,6 +104,7 @@ int main() {
           selectedLength = b.selectedLength;
           content = b.content;
           return content;
+          
         }
       }
 
@@ -116,5 +117,6 @@ int main() {
       string memory;
       stack<State> undoStack;
       stack<State> prevStateStack;
+      
   };
 }

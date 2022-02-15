@@ -16,5 +16,4 @@ while (!pq.empty()){
   res.push_back(pq.top().second);
   pq.pop();
 }
-
 return res;
